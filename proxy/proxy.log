@@ -1,0 +1,19 @@
+2025-07-09 20:37:54,679 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-09 20:37:54,679 [33mPress CTRL+C to quit[0m
+2025-07-09 20:41:21,467 Received request: {'ip': '127.0.0.1', 'method': 'POST', 'path': '/test', 'headers': {'Host': 'localhost:8080', 'User-Agent': 'curl/8.13.0', 'Accept': '*/*'}, 'body': None}
+2025-07-09 20:41:21,811 127.0.0.1 - - [09/Jul/2025 20:41:21] "POST /test HTTP/1.1" 200 -
+2025-07-09 20:41:55,819 Received request: {'ip': '127.0.0.1', 'method': 'POST', 'path': '/test', 'headers': {'Host': 'localhost:8080', 'User-Agent': 'curl/8.13.0', 'Accept': '*/*', 'Content-Type': 'application/json', 'Content-Length': '51'}, 'body': {'username': 'admin', 'input': 'DROP TABLE users;'}}
+2025-07-09 20:41:55,974 127.0.0.1 - - [09/Jul/2025 20:41:55] "POST /test HTTP/1.1" 200 -
+2025-07-09 21:17:32,782 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-09 21:17:32,783 [33mPress CTRL+C to quit[0m
+2025-07-09 21:19:08,018 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-09 21:19:08,019 [33mPress CTRL+C to quit[0m
+2025-07-09 21:19:38,061 ML detection failed: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002127C4C63C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-07-09 21:19:38,062 Request log: {'ip': '127.0.0.1', 'method': 'POST', 'path': '/test', 'headers': {'Host': 'localhost:8080', 'User-Agent': 'curl/8.13.0', 'Accept': '*/*', 'Content-Type': 'application/json', 'Content-Length': '51'}, 'body': {'username': 'admin', 'input': 'DROP TABLE users;'}, 'features': [9, 5, 1]}, Threat: False, Score: 0.0
+2025-07-09 21:19:38,190 127.0.0.1 - - [09/Jul/2025 21:19:38] "POST /test HTTP/1.1" 200 -
+2025-07-09 21:21:31,924 ML detection failed: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002127C4E6210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-07-09 21:21:31,925 Request log: {'ip': '127.0.0.1', 'method': 'POST', 'path': '/test', 'headers': {'Host': 'localhost:8080', 'User-Agent': 'curl/8.13.0', 'Accept': '*/*', 'Content-Type': 'application/json', 'Content-Length': '51'}, 'body': {'username': 'admin', 'input': 'DROP TABLE users;'}, 'features': [9, 5, 1]}, Threat: False, Score: 0.0
+2025-07-09 21:21:33,657 127.0.0.1 - - [09/Jul/2025 21:21:33] "POST /test HTTP/1.1" 200 -
