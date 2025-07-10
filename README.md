@@ -21,22 +21,7 @@ It’s designed as a modular system so you can plug it into any microservice arc
 
 ## 📁 Folder Structure
 
-intelligent-api-gateway/
-├── proxy/ # Reverse proxy server (Flask)
-│ └── app.py # Core proxy logic
-├── ml_threat_detector/ # ML-based anomaly detection service
-│ └── model.py # Model training and prediction
-├── dashboard/ # Real-time visualization dashboard
-│ └── app.py # UI logic (Flask or Streamlit)
-├── data/ # Sample logs, test data
-│ └── sample_logs.csv
-├── config/ # IP blocklist, rate-limiting rules
-│ └── config.yaml
-├── scripts/ # Utility scripts (e.g., data generator)
-│ └── simulate_logs.py
-├── Dockerfile # Containerize the full system
-├── requirements.txt # Python dependencies
-└── README.md
+
 
 
 ---
